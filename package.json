@@ -1,0 +1,21 @@
+{
+  "name": "firefox-extension-google-verbatim-search",
+  "version": "1.0.0",
+  "description": "Adds Google with the Verbatim results tool always set to on as a search engine.",
+  "scripts": {
+    "lint": "web-ext lint",
+    "build": "web-ext build --overwrite-dest -a ./dist -s ./src",
+    "run": "web-ext run"
+  },
+  "keywords": [
+    "firefox"
+  ],
+  "author": "lorddoig",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
